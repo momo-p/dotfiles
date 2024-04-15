@@ -1,7 +1,9 @@
+fpath+=$HOME/.zsh/typewritten
 autoload -U promptinit; promptinit
-prompt pure
+prompt typewritten
 
 export EDITOR="nvim"
+export TYPEWRITTEN_CURSOR="beam"
 
 eval "$(zoxide init zsh)"
 
