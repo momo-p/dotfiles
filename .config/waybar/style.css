@@ -1,0 +1,54 @@
+@import "palette.css";
+
+* {
+  border: none;
+  background: transparent;
+  font-family: 'JetBrains Nerd Font Mono';
+  font-size: 16px;
+}
+
+#custom-arch, #workspaces {
+  border-radius: 10px;
+  background-color: @background;
+  color: @foreground;
+  padding: 2px 0;
+}
+
+#custom-arch, #workspaces {
+  margin: 12px 0 10px 15px;
+}
+
+#custom-arch {
+  font-size: 28px;
+  color: @foreground;
+}
+
+#workspaces button {
+  background: @background;
+  color: @foreground;
+}
+
+#custom-date {
+  border-radius: 10px;
+  background-color: @background;
+  color: @foreground;
+  padding: 2px 16px;
+  margin: 12px 0 10px 0;
+}
+
+.modules-right {
+  border-radius: 10px;
+  background-color: @background;
+  color: @foreground;
+  padding: 2px 0 2px 16px;
+  margin: 12px 15px 10px 0;
+}
+
+#network {
+  margin-left: 16px;
+}
+
+#network, #pulseaudio {
+  margin-right: 16px;
+  font-size: 28px;
+}
