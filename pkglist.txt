@@ -1,2 +1,3 @@
 zoxide
 eza
+wezterm
