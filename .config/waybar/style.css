@@ -23,6 +23,11 @@
   color: @foreground;
 }
 
+#workspaces {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #workspaces button {
   background: transparent;
   color: @foreground;
