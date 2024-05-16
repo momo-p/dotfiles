@@ -24,7 +24,7 @@
 }
 
 #workspaces button {
-  background: @background;
+  background: transparent;
   color: @foreground;
 }
 
