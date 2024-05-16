@@ -15,7 +15,7 @@
 }
 
 #custom-arch, #workspaces {
-  margin: 12px 0 10px 15px;
+  margin: 12px 0 0 15px;
 }
 
 #custom-arch {
@@ -33,7 +33,7 @@
   background-color: @background;
   color: @foreground;
   padding: 2px 16px;
-  margin: 12px 0 10px 0;
+  margin: 12px 0 0 0;
 }
 
 .modules-right {
@@ -41,7 +41,7 @@
   background-color: @background;
   color: @foreground;
   padding: 2px 0 2px 16px;
-  margin: 12px 15px 10px 0;
+  margin: 12px 15px 0 0;
 }
 
 #network {
