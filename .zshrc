@@ -1,3 +1,7 @@
+HISTFILE=~/.histfile
+HISTSIZE=2000
+SAVEHIST=10000
+
 fpath+=$HOME/.zsh/typewritten
 autoload -U promptinit; promptinit
 prompt typewritten
