@@ -13,9 +13,6 @@ config.window_background_opacity = 0.92
 -- Use Jetbrain Mono font
 config.font = wezterm.font 'JetBrains Mono'
 
--- Disable wezterm wayland mode since it broke on hyprland
-config.enable_wayland = false
-
 -- Disable bottom padding sinc it break nvim bar
 config.window_padding = {
   left = 0,
