@@ -10,6 +10,8 @@ config.color_scheme = "Material Palenight (base16)"
 config.color_scheme_dirs = { os.getenv("HOME") .. "/.config/wezterm/colors/" }
 config.window_background_opacity = 0.92
 
+config.enable_wayland = false
+
 -- Use Jetbrain Mono font
 config.font = wezterm.font 'JetBrains Mono'
 

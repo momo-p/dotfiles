@@ -3,7 +3,7 @@
     "mode": "dock",
     "modules-left": [
         "custom/arch",
-        "sway/workspaces"
+        "hyprland/workspaces"
     ],
     "modules-center": [
         "custom/date"
@@ -18,7 +18,7 @@
         "tooltip": false,
         "on-click": "sh $HOME/.config/rofi/launchers/type-7/launcher.sh"
     },
-    "sway/workspaces": {
+    "hyprland/workspaces": {
         "format": "{icon}",
         "tooltip": false,
         "all-outputs": true,
