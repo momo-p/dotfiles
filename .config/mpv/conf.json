@@ -63,7 +63,7 @@
     "remote_direct_paths": false,
     "remote_kbps": -1,
     "sanitize_output": true,
-    "screenshot_dir": null,
+    "screenshot_dir": "/home/momo-p/Pictures/mpv/",
     "screenshot_menu": true,
     "seek_down": -60,
     "seek_h_exact": false,
