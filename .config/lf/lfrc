@@ -1,0 +1,10 @@
+set previewer ~/.config/lf/preview
+set cleaner ~/.config/lf/cleaner
+
+cmd open &{{
+     case $(file --mime-type -Lb $f) in
+         text/*) lf -remote "send $id \$$EDITOR \$fx";;
+         *) $OPENER "$f" > /dev/null 2> /dev/null;;
+     esac
+}}
+
